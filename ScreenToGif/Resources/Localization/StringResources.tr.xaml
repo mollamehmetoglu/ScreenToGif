@@ -46,7 +46,7 @@
     <s:String x:Key="Image">Görüntü</s:String>
     <s:String x:Key="Language">Dil</s:String>
     <s:String x:Key="TemporaryFiles">Geçici Dosyalar</s:String>
-    <!--<s:String x:Key="Extras">Extras</s:String>-->
+    <!--<s:String x:Key="Extras">Ekstra Ayar</s:String>-->
     <s:String x:Key="Donate">Bağış Yap</s:String>
     <s:String x:Key="About">Hakkında</s:String>
     
@@ -62,25 +62,25 @@
     <s:String x:Key="Application.ScreenRecorder.RecordClicks">Fare tıklamalarını kayıtta göster.</s:String>
     <s:String x:Key="Application.ScreenRecorder.SelectCursorColor">Fare İmleci Rengini Seç</s:String>
     <s:String x:Key="Application.ScreenRecorder.PreStart">Başlama için geri-sayım kullan.</s:String>
-    <!--<s:String x:Key="Application.ScreenRecorder.StepRecording">Enable snapshot mode.</s:String>-->
-    <!--<s:String x:Key="Application.ScreenRecorder.StepRecording.Info">(Each frame will be captured manually by you)</s:String>-->
-    <!--<s:String x:Key="Application.ScreenRecorder.FullRecording">Enable fullscreen mode.</s:String>-->
-    <!--<s:String x:Key="Application.ScreenRecorder.FullRecording.Info">(Experimental, will capture the main screen)</s:String>-->
+    <!--<s:String x:Key="Application.ScreenRecorder.StepRecording">Ekran Görüntüsü Modunu Kullan.</s:String>-->
+    <!--<s:String x:Key="Application.ScreenRecorder.StepRecording.Info">(Her bir kare için ekran görüntüsü sizin tarafınızdan manuel gerçekleştirilir)</s:String>-->
+    <!--<s:String x:Key="Application.ScreenRecorder.FullRecording">Tam ekran modu aktif.</s:String>-->
+    <!--<s:String x:Key="Application.ScreenRecorder.FullRecording.Info">(Kullanılan ana ekranı yakalar)</s:String>-->
     <s:String x:Key="Application.ScreenRecorder.FixedFramerate">Sabit kare hızı.</s:String>
     <s:String x:Key="Application.ScreenRecorder.FixedFramerate.Info">(Sabit gecikme, kayıt gecikmesini değiştirmez)</s:String>
-    <!--<s:String x:Key="Application.ScreenRecorder.AsyncRecording">Enable asynchronous recording.</s:String>-->
-    <!--<s:String x:Key="Application.ScreenRecorder.AsyncRecording.Info">(It helps reduce the interface lag when recording)</s:String>-->
+    <!--<s:String x:Key="Application.ScreenRecorder.AsyncRecording">Asenkron kayıt aktif.</s:String>-->
+    <!--<s:String x:Key="Application.ScreenRecorder.AsyncRecording.Info">(Kayıt esnasındaki geçikmeleri azaltmaya yardımcı olur)</s:String>-->
     
     <s:String x:Key="Application.Other">Diğer</s:String>
-    <!--<s:String x:Key="Application.Other.CheckForUpdates">Check for updates.</s:String>-->
+    <!--<s:String x:Key="Application.Other.CheckForUpdates">Güncellemeleri kontrol et.</s:String>-->
     
     <s:String x:Key="S.Shortcuts.Recorders.StartPause">Başlat/Duraklat:</s:String>
     <s:String x:Key="S.Shortcuts.Recorders.Stop">Durdur:</s:String>
     
     <s:String x:Key="Interface.EditorBackground">Editör Arkaplanı</s:String>
-    <!--<s:String x:Key="Interface.Recorder">Recorder theme</s:String>-->
-    <!--<s:String x:Key="Interface.Background">Background</s:String>-->
-    <!--<s:String x:Key="Interface.Foreground">Foreground</s:String>-->
+    <!--<s:String x:Key="Interface.Recorder">Kaydedici Teması</s:String>-->
+    <!--<s:String x:Key="Interface.Background">Arkaplan</s:String>-->
+    <!--<s:String x:Key="Interface.Foreground">Önyüz</s:String>-->
     <s:String x:Key="Interface.BoardBackground">Pano Arkaplanı</s:String>
     <s:String x:Key="Interface.EditorBackground.Scheme">Renk Düzeni</s:String>
     <s:String x:Key="Interface.EditorBackground.Scheme.VeryLight">Çok Açık</s:String>
@@ -108,8 +108,8 @@
 
     <s:String x:Key="Interface.Other">Diğer</s:String>
     <s:String x:Key="Interface.Other.ExtendChrome">Başlık Çubuğunu Uzat/Chrome.</s:String>
-    <!--<s:String x:Key="Interface.Other.HideTitleBar">Hide the title bar (thin mode).</s:String>-->
-    <!--<s:String x:Key="Interface.Other.TripleClickSelection">Enable triple-click to select the text.</s:String>-->
+    <!--<s:String x:Key="Interface.Other.HideTitleBar">Başlık Çubuğunu gizle (ince mod).</s:String>-->
+    <!--<s:String x:Key="Interface.Other.TripleClickSelection">Metin seçmek için 3 tık aktif</s:String>-->
   
     <s:String x:Key="Language.AppLanguage">Uygulama Dili</s:String>
     
@@ -118,20 +118,20 @@
     <s:String x:Key="TempFiles.Files">Dosyalar:</s:String>
     <s:String x:Key="TempFiles.OpenFolder">Klasör Aç</s:String>
     <s:String x:Key="TempFiles.Clear">Geçici Klasörü Temizle</s:String>
-    <!--<s:String x:Key="TempFiles.LogsLocation">Logs folder</s:String>-->
-    <!--<s:String x:Key="TempFiles.LogsLocation.Choose">Choose the location for the error logs files</s:String>-->
-    <!--<s:String x:Key="TempFiles.Location">Location folder</s:String>-->
-    <!--<s:String x:Key="TempFiles.Location.Choose">Choose the location for the temporary files</s:String>-->
-    <!--<s:String x:Key="TempFiles.Settings">Settings location</s:String>-->
-    <!--<s:String x:Key="TempFiles.AppDataPath">AppData:</s:String>-->
-    <!--<s:String x:Key="TempFiles.LocalPath">Local:</s:String>-->
-    <!--<s:String x:Key="TempFiles.NotExists">It doesn't exist</s:String>-->
-    <!--<s:String x:Key="TempFiles.CreateSettings">Create an empty local settings file.</s:String>-->
-    <!--<s:String x:Key="TempFiles.RemoveSettings">Remove the settings file.</s:String>-->
-    <!--<s:String x:Key="TempFiles.SettingsInfo">• Settings loading pattern: Default ◄ AppData ◄ Local.&#x0d;• If there's no settings file present at the Local folder, the app searches inside the AppData folder, Default is used if no settings file present.&#x0d;• If there's no Local settings, all settings are saved on the AppData settings file.</s:String>-->
+    <!--<s:String x:Key="TempFiles.LogsLocation">Logs Klasörü</s:String>-->
+    <!--<s:String x:Key="TempFiles.LogsLocation.Choose">Hata kayıtları(log'lar) için dosya yolu seç</s:String>-->
+    <!--<s:String x:Key="TempFiles.Location">Klasör Yolu</s:String>-->
+    <!--<s:String x:Key="TempFiles.Location.Choose">Geçici dosyalar(Temp) için dosya yolu seç</s:String>-->
+    <!--<s:String x:Key="TempFiles.Settings">Dosya Yolu Ayarları</s:String>-->
+    <!--<s:String x:Key="TempFiles.AppDataPath">Uygulama Verisi:</s:String>-->
+    <!--<s:String x:Key="TempFiles.LocalPath">Yerel Klasör:</s:String>-->
+    <!--<s:String x:Key="TempFiles.NotExists">Mevcut Değil</s:String>-->
+    <!--<s:String x:Key="TempFiles.CreateSettings">Boş bir yerel ayar dosyası oluştur.</s:String>-->
+    <!--<s:String x:Key="TempFiles.RemoveSettings">Syar dosyasını kaldır.</s:String>-->
+    <!--<s:String x:Key="TempFiles.SettingsInfo">• Yüklenen ayarlar: Default ◄ AppData ◄ Local.&#x0d;• Lokal dosya yolunda mevcut bir ayar yoksa, uygulama AppData kalsöründe arama yapar, herhangi bir ayar bulmazsa varsayılan ayarları kullanır.&#x0d;• Yerel ayar dosyası yoksa, tüm ayarlar AppData içerisine ayarlar dosyasına kaydedilir.</s:String>-->
 
-    <!--<s:String x:Key="Extras.FfmpegLocation">FFmpeg location</s:String>-->
-    <!--<s:String x:Key="Extras.FfmpegLocation.Select">Select the location of the FFmpeg executable</s:String>-->
+    <!--<s:String x:Key="Extras.FfmpegLocation">FFmpeg yolu</s:String>-->
+    <!--<s:String x:Key="Extras.FfmpegLocation.Select">Çalıştırılabilir FFmpeg için dosya yolu seç</s:String>-->
     
     <s:String x:Key="Donate.IfYouWish">Bana Teşekkür Etmek İsterseniz :D</s:String>
     <s:String x:Key="Donate.DonateDollar">Bağış Yap US$</s:String>
@@ -141,12 +141,12 @@
     <s:String x:Key="About.Version">Sürüm:</s:String>
     <s:String x:Key="About.Author">Yazar: Nicke Manarin</s:String>
     <s:String x:Key="About.Contact">İletişim</s:String>
-    <!--<s:String x:Key="About.Technical">Technical</s:String>-->
-    <!--<s:String x:Key="About.Technical.License">License:</s:String>-->
-    <!--<s:String x:Key="About.Technical.Free">(This is a completely free app)</s:String>-->
+    <!--<s:String x:Key="About.Technical">Teknik</s:String>-->
+    <!--<s:String x:Key="About.Technical.License">Lisans:</s:String>-->
+    <!--<s:String x:Key="About.Technical.Free">(Tamamen ücresiz bir uygulama)</s:String>-->
     <!--<s:String x:Key="About.Technical.SourceCode">Source code:</s:String>-->
-    <s:String x:Key="About.ABigThanksTo">Çok teşekkürler ></s:String>
-    <!--<s:String x:Key="About.ABigThanksTo.Everyone">All my supporters, people who provided feedback and/or donations.</s:String>-->
+    <s:String x:Key="About.ABigThanksTo">Çok teşekkürler</s:String>
+    <!--<s:String x:Key="About.ABigThanksTo.Everyone">Tüm destekçilerim, geri bildirim ve / veya bağış sağlayan insanlardır.</s:String>-->
 
     <!--Recorder-->
     <s:String x:Key="Recorder.RecordingOptions">Kayıt Ayarları</s:String>
@@ -350,7 +350,7 @@
     <s:String x:Key="Editor.Image.Overlay">Kaplama</s:String>
     <s:String x:Key="Editor.Image.FreeDrawing">Serbest\nÇizim</s:String>
     <s:String x:Key="Editor.Image.Watermark">Filigran</s:String>
-    <s:String x:Key="Editor.Image.Cinemagraph">Cinemagraph</s:String>
+    <s:String x:Key="Editor.Image.Cinemagraph">Sinemagrafi</s:String>
     <s:String x:Key="Editor.Image.Border">Kenar</s:String>
     <!--<s:String x:Key="Editor.Image.Progress">Progress</s:String>-->
 
@@ -396,8 +396,8 @@
     <s:String x:Key="Editor.Watermark.WarningNoImage">Seçili kare(lerin) uygulanması için bir görüntü seçmelisiniz.</s:String>
     <s:String x:Key="Editor.Watermark.WarningSelection">Filigranı uygulamak için en az bir kare seçmelisiniz.</s:String>
     <s:String x:Key="Editor.Border.WarningThickness">En az bir kenarın kalınlığı sıfırdan büyük olduğunu bilmelisiniz.</s:String>
-    <s:String x:Key="Editor.Border.WarningSelection">You have to select at least one frame to apply the Border to.</s:String>
-    <s:String x:Key="Editor.Cinemagraph.WarningNoDrawing">Cinemagraph uygulamanız için en az bir piksel seçmelisiniz. Üstünü çizerek pikselleri seçin.</s:String>
+    <s:String x:Key="Editor.Border.WarningSelection">Kenarlığı uygulamak için en az 1 kare seçmelisiniz.</s:String>
+    <s:String x:Key="Editor.Cinemagraph.WarningNoDrawing">Sinemagrafi uygulamanız için en az bir piksel seçmelisiniz. Üstünü çizerek pikselleri seçin.</s:String>
     
     <s:String x:Key="Editor.Fade.Title">Karartma Geçisi</s:String>
     <s:String x:Key="Editor.Fade.WarningSelection">Karartma Geçişlerini uygulamak için en az bir kare seçmeniz gerekiyor.</s:String>
@@ -427,10 +427,10 @@
     <s:String x:Key="Editor.ChangingDelay">Gecikme Değiştiriliyor</s:String>
     <s:String x:Key="Editor.ApplyingTransition">Geçiş Efekti Uygulanıyor</s:String>
 
-    <!--<s:String x:Key="Editor.List.Frame">Frame:</s:String>-->
-    <!--<s:String x:Key="Editor.List.OpenImage">Open Image</s:String>-->
-    <!--<s:String x:Key="Editor.List.ExploreFolder">Explore Folder</s:String>-->
-    <!--<s:String x:Key="Editor.List.ExportImage">Export Image</s:String>-->
+    <!--<s:String x:Key="Editor.List.Frame">Kare:</s:String>-->
+    <!--<s:String x:Key="Editor.List.OpenImage">Görüntü Aç</s:String>-->
+    <!--<s:String x:Key="Editor.List.ExploreFolder">Klasörü Göster</s:String>-->
+    <!--<s:String x:Key="Editor.List.ExportImage">Görüntüyü Çıkart</s:String>-->
     
     <s:String x:Key="GoTo.Title">Kareye Git</s:String>
     <s:String x:Key="GoTo.Instruction">Kareye git (0 to {0})</s:String>
@@ -443,43 +443,43 @@
     <s:String x:Key="Context.NewFromMediaProject">Projeden yada Medyadan Yeni</s:String>
     
     <!--Warnings-->
-    <!--<s:String x:Key="Editor.Warning.Selection">You have to select at least one frame to apply the overlay to.</s:String>-->
-    <!--<s:String x:Key="Editor.Warning.Ffmpeg">FFmpeg not present. Add it to the Path environment variables or set the location on Settings.</s:String>-->
+    <!--<s:String x:Key="Editor.Warning.Selection">Üzeirne gelmesi için en az bir kare seçmelisiniz.</s:String>-->
+    <!--<s:String x:Key="Editor.Warning.Ffmpeg">FFmpeg mevcut değil. Bunu dizin ortam değişkenlerine ekleyin veya Ayarlar'da dosya yolunu ayarlayın.</s:String>-->
     
     <!--Hints-->
-    <!--<s:String x:Key="Hint.NewRecording">New recording created</s:String>-->
-    <!--<s:String x:Key="Hint.NewWebcamRecording">New webcam recording created</s:String>-->
-    <!--<s:String x:Key="Hint.NewBoardRecording">New board recording created</s:String>-->
-    <!--<s:String x:Key="Hint.NewAnimation">New project created</s:String>-->
-    <!--<s:String x:Key="Hint.Undo">Undo executed</s:String>-->
-    <!--<s:String x:Key="Hint.Reset">Reset executed</s:String>-->
-    <!--<s:String x:Key="Hint.Redo">Redo executed</s:String>-->
-    <!--<s:String x:Key="Hint.Cut">{0} frame(s) cut</s:String>-->
-    <!--<s:String x:Key="Hint.Copy">{0} frame(s) copied</s:String>-->
-    <!--<s:String x:Key="Hint.Paste">{0} frame(s) pasted</s:String>-->
-    <!--<s:String x:Key="Hint.Zoom">Zoom set to {0}%</s:String>-->
-    <!--<s:String x:Key="Hint.SelectAll">All frames were selected</s:String>-->
-    <!--<s:String x:Key="Hint.SelectSingle">Frame #{0} selected</s:String>-->
-    <!--<s:String x:Key="Hint.SelectInverse">Selection inversed</s:String>-->
-    <!--<s:String x:Key="Hint.Deselect">All frames were deselected</s:String>-->
-    <!--<s:String x:Key="Hint.DeleteFrames">{0} frame(s) deleted</s:String>-->
-    <!--<s:String x:Key="Hint.Reverse">Frame list reversed</s:String>-->
-    <!--<s:String x:Key="Hint.Yoyo">Yoyo effect applied</s:String>-->
-    <!--<s:String x:Key="Hint.MoveLeft">Frame(s) moved to the left</s:String>-->
-    <!--<s:String x:Key="Hint.MoveRight">Frame(s) moved to the right</s:String>-->
-    <!--<s:String x:Key="Hint.Resize">Frames resized</s:String>-->
-    <!--<s:String x:Key="Hint.Crop">Frames cropped</s:String>-->
-    <!--<s:String x:Key="Hint.FlipRotate">Frames flipped/rotated</s:String>-->
-    <!--<s:String x:Key="Hint.FlipRotate2">The flip action applies to the selected frames and the rotate applies to all frames</s:String>-->
-    <!--<s:String x:Key="Hint.ApplyAll">This action applies to all frames</s:String>-->
-    <!--<s:String x:Key="Hint.ApplySelected">This action applies to selected frames</s:String>-->
-    <!--<s:String x:Key="Hint.Cinemagraph">The cinemagraph applies to all frames based on the first frame</s:String>-->
-    <!--<s:String x:Key="Hint.Overlay">Overlay applied</s:String>-->
-    <!--<s:String x:Key="Hint.TitleFrame">Title frame created</s:String>-->
-    <!--<s:String x:Key="Hint.TitleFrame2">The title frame will be inserted before the selected frame</s:String>-->
-    <!--<s:String x:Key="Hint.Delay">Duration (delay) altered</s:String>-->
-    <!--<s:String x:Key="Hint.Transition">Transition inserted</s:String>-->
-    <!--<s:String x:Key="Hint.Reduce">Framerate reduced</s:String>-->
+    <!--<s:String x:Key="Hint.NewRecording">Yeni kayıt oluşturuldu</s:String>-->
+    <!--<s:String x:Key="Hint.NewWebcamRecording">Yeni web kamerası kaydı oluşturuldu</s:String>-->
+    <!--<s:String x:Key="Hint.NewBoardRecording">Yeni ekran kaydı oluşturuldu</s:String>-->
+    <!--<s:String x:Key="Hint.NewAnimation">Yeni Proje oluşturuldu</s:String>-->
+    <!--<s:String x:Key="Hint.Undo">İşlem geri</s:String>-->
+    <!--<s:String x:Key="Hint.Reset">İşlemi sıfırla</s:String>-->
+    <!--<s:String x:Key="Hint.Redo">İşlem ileri</s:String>-->
+    <!--<s:String x:Key="Hint.Cut">{0} kare kesildi</s:String>-->
+    <!--<s:String x:Key="Hint.Copy">{0} kare kopyalandı</s:String>-->
+    <!--<s:String x:Key="Hint.Paste">{0} kare yapıştırıldı</s:String>-->
+    <!--<s:String x:Key="Hint.Zoom">Yakınlaştırmayı %{0} olarak ayarla</s:String>-->
+    <!--<s:String x:Key="Hint.SelectAll">Tüm kareler seçildi</s:String>-->
+    <!--<s:String x:Key="Hint.SelectSingle">#{0} kare seçildi</s:String>-->
+    <!--<s:String x:Key="Hint.SelectInverse">Seçim terse çevrildi</s:String>-->
+    <!--<s:String x:Key="Hint.Deselect">Tüm karelerin seçimi kaldırıldı</s:String>-->
+    <!--<s:String x:Key="Hint.DeleteFrames">{0} kare silindi</s:String>-->
+    <!--<s:String x:Key="Hint.Reverse">Kareler tersine çevrildi</s:String>-->
+    <!--<s:String x:Key="Hint.Yoyo">Yoyo efekti uygulandı</s:String>-->
+    <!--<s:String x:Key="Hint.MoveLeft">Kare/ler sola taşındı</s:String>-->
+    <!--<s:String x:Key="Hint.MoveRight">Kare/ler sağa taşındı</s:String>-->
+    <!--<s:String x:Key="Hint.Resize">KAreler yeniden boyutlandırıldı</s:String>-->
+    <!--<s:String x:Key="Hint.Crop">Kareler kopyalandı</s:String>-->
+    <!--<s:String x:Key="Hint.FlipRotate">Kare/ler çevrildi / döndürüldü</s:String>-->
+    <!--<s:String x:Key="Hint.FlipRotate2">Çevirme hareketi seçilen karelere, döndürme tüm karelere uygulandı</s:String>-->
+    <!--<s:String x:Key="Hint.ApplyAll">Bu işlem tüm kareler için gerçekleşti</s:String>-->
+    <!--<s:String x:Key="Hint.ApplySelected">Bu işlem seçili kareler için gerçekleşti</s:String>-->
+    <!--<s:String x:Key="Hint.Cinemagraph">Sinemagraf ilk kareye bağlı olarak tüm karelere uygulandı</s:String>-->
+    <!--<s:String x:Key="Hint.Overlay">Kaplama uygulandı</s:String>-->
+    <!--<s:String x:Key="Hint.TitleFrame">Başlık(Kapak) karesi oluşturuldu</s:String>-->
+    <!--<s:String x:Key="Hint.TitleFrame2">Başlık(Kapak) karesi seçili karenin önüne eklenir</s:String>-->
+    <!--<s:String x:Key="Hint.Delay">Geçikme süresi değiştirildi</s:String>-->
+    <!--<s:String x:Key="Hint.Transition">Geçiş Eklendi</s:String>-->
+    <!--<s:String x:Key="Hint.Reduce">Kare hızı düşürüldü</s:String>-->
     
     <!--Action Grid-->
     <s:String x:Key="Action.Hide">Gizle</s:String>
@@ -533,12 +533,12 @@
     <s:String x:Key="Caption.Vertical">Dikey:</s:String>
     <s:String x:Key="Caption.Horizontal">Yatay:</s:String>
 
-    <!--<s:String x:Key="KeyStrokes.Keys">Keys</s:String>-->
+    <!--<s:String x:Key="KeyStrokes.Keys">Tuşlar</s:String>-->
     <!--<s:String x:Key="KeyStrokes.Separator">Separator</s:String>-->
-    <!--<s:String x:Key="KeyStrokes.Edit">Edit your key strokes</s:String>-->
-    <!--<s:String x:Key="KeyStrokes.Extend">Extend the exhibition of the key strokes:</s:String>-->
-    <!--<s:String x:Key="KeyStrokes.By">By (ms):</s:String>-->
-    <!--<s:String x:Key="KeyStrokes.Warning.None">There's no keystrokes on your recording.</s:String>-->
+    <!--<s:String x:Key="KeyStrokes.Edit">Tuş kombinasyonunu düzenle</s:String>-->
+    <!--<s:String x:Key="KeyStrokes.Extend">Tuş kombinasyonu sezgisini uzatın:</s:String>-->
+    <!--<s:String x:Key="KeyStrokes.By">(ms) olarak:</s:String>-->
+    <!--<s:String x:Key="KeyStrokes.Warning.None">Kaydınızda hiç tuş vurgusu yok.</s:String>-->
     
     <s:String x:Key="String.Delay">Gecikme</s:String>
     <s:String x:Key="String.DelayMs">Gecikme (ms):</s:String>
@@ -550,7 +550,7 @@
     <s:String x:Key="FreeDrawing.Pen">Dolma kalem</s:String>
     <s:String x:Key="FreeDrawing.Eraser">Silgi</s:String>
     <s:String x:Key="FreeDrawing.Select">Seç</s:String>
-    <s:String x:Key="FreeDrawing.StrokeEraser">Stroke Eraser</s:String>
+    <s:String x:Key="FreeDrawing.StrokeEraser">Nesne Silgisi</s:String>
     <s:String x:Key="FreeDrawing.Width">Genişlik:</s:String>
     <s:String x:Key="FreeDrawing.Height">Yükseklik:</s:String>
     <s:String x:Key="FreeDrawing.Tip">Öneri:</s:String>
@@ -565,27 +565,27 @@
     <s:String x:Key="Watermark.Opacity">Saydamlık:</s:String>
     <s:String x:Key="Border.Appearance">Görünüm</s:String>
 
-    <!--<s:String x:Key="Progress.Type">Type</s:String>-->
+    <!--<s:String x:Key="Progress.Type">Tip</s:String>-->
     <!--<s:String x:Key="Progress.Type.Bar">Bar</s:String>-->
-    <!--<s:String x:Key="Progress.Type.Text">Text</s:String>-->
-    <!--<s:String x:Key="Progress.Precision">Precision:</s:String>-->
-    <!--<s:String x:Key="Progress.Precision.Minutes">Minutes</s:String>-->
-    <!--<s:String x:Key="Progress.Precision.Seconds">Seconds</s:String>-->
-    <!--<s:String x:Key="Progress.Precision.Miliseconds">Milliseconds</s:String>-->
-    <!--<s:String x:Key="Progress.Precision.Percentage">Percentage</s:String>-->
-    <!--<s:String x:Key="Progress.Precision.Count">Frame Number</s:String>-->
-    <!--<s:String x:Key="Progress.Precision.Custom">Custom</s:String>-->
+    <!--<s:String x:Key="Progress.Type.Text">Metin</s:String>-->
+    <!--<s:String x:Key="Progress.Precision">Hassasiyet Türü:</s:String>-->
+    <!--<s:String x:Key="Progress.Precision.Minutes">Dakika</s:String>-->
+    <!--<s:String x:Key="Progress.Precision.Seconds">Saniye</s:String>-->
+    <!--<s:String x:Key="Progress.Precision.Miliseconds">Milisaniye</s:String>-->
+    <!--<s:String x:Key="Progress.Precision.Percentage">Yüzde</s:String>-->
+    <!--<s:String x:Key="Progress.Precision.Count">Kare numarası</s:String>-->
+    <!--<s:String x:Key="Progress.Precision.Custom">Özelleştirilebilir</s:String>-->
     <!--<s:String x:Key="Progress.Precision.ShowTotal">Show the total.</s:String>-->
     <!--<s:String x:Key="Progress.Format">Format:</s:String>-->
-    <!--<s:String x:Key="Progress.Orientation">Orientation:</s:String>-->
+    <!--<s:String x:Key="Progress.Orientation">Yön:</s:String>-->
     
     <s:String x:Key="Delay.NewValue">Yeni Değer</s:String>
     <s:String x:Key="Delay.Minimum10Ms">Kare başına en az 10ms.</s:String>
     <s:String x:Key="Delay.DecreaseIncrease">Değeri Azalt/Arttır</s:String>
     
-    <!--<s:String x:Key="Cinemagraph.Info">Use the pen to select the pixels that should not remain static (that should change among frames), by painting on top of them.</s:String>-->
-    <!--<s:String x:Key="OverrideDelay.Info">This new value will replace the duration (delay) of all selected frames. The value can be from 10ms to 25500ms.</s:String>-->
-    <!--<s:String x:Key="IncreaseDecreaseDelay.Info">This value will decrease/increase the duration (delay) of each selected frame.&#x0d;You can decrement/increment by selecting a value between -10000ms and 10000ms, but the final duration of each frame will be restricted to between 10ms and 25500ms</s:String>-->
+    <!--<s:String x:Key="Cinemagraph.Info">Statik kalmaması gereken pikselleri (kareler arasında değişmesi gereken) yerleri seçmek için kalemi kullanın.</s:String>-->
+    <!--<s:String x:Key="OverrideDelay.Info">Bu yeni değer, seçilen tüm karelerin gecikme süresinin yerini alacaktır. Değer 10ms ila 25500ms arasında olabilir</s:String>-->
+    <!--<s:String x:Key="IncreaseDecreaseDelay.Info">Bu değer seçilen her çerçevenin gecikme süresini azaltır / artırır.&#x0d;-10000 ms ile 10000 ms arasında bir değer seçerek azaltma / arttırma yapabilirsiniz, ancak her bir çerçevenin son süresi 10ms ila 25500ms arasında sınırlandırılacak</s:String>-->
     
     <s:String x:Key="Transitions.Lenght">Geçiş Süresi</s:String>
     <s:String x:Key="Transitions.FadeTo">Geçiş yap...</s:String>
@@ -619,45 +619,45 @@
     <s:String x:Key="S.SaveAs.GifOptions.SelectDummyColor">Sahte Rengi Seç</s:String>
     <s:String x:Key="S.SaveAs.VideoOptions">Video ayarları</s:String>
     <!--<s:String x:Key="S.SaveAs.VideoOptions.Fps">Fps:</s:String>-->
-    <!--<s:String x:Key="S.SaveAs.ImagesOptions">Image options</s:String>-->
-    <!--<s:String x:Key="S.SaveAs.ImageOptions.Zip">Zip the images.</s:String>-->
-    <!--<s:String x:Key="S.SaveAs.File">File</s:String>-->
-    <!--<s:String x:Key="S.SaveAs.File.Location">Destination folder.</s:String>-->
-    <!--<s:String x:Key="S.SaveAs.File.Choose">Choose the location.</s:String>    -->
-    <!--<s:String x:Key="S.SaveAs.File.Format">File format</s:String>-->
-    <!--<s:String x:Key="S.SaveAs.File.Name">Name of the file.</s:String>-->
-    <!--<s:String x:Key="S.SaveAs.File.Animation">Animation</s:String>-->
-    <!--<s:String x:Key="S.SaveAs.File.Increase">Increase the file number</s:String>-->
-    <!--<s:String x:Key="S.SaveAs.File.Decrease">Decrease the file number</s:String>-->
-    <!--<s:String x:Key="S.SaveAs.File.Exists">A file with the same name already exists.</s:String>-->
-    <!--<s:String x:Key="S.SaveAs.SaveOptions.Overwrite">Overwrite (if already exists).</s:String>-->
-    <!--<s:String x:Key="S.SaveAs.File.Clipboard">Save to the clipboard.</s:String>-->
-    <!--<s:String x:Key="S.SaveAs.Warning.Folder">You need to select an output folder.</s:String>-->
-    <!--<s:String x:Key="S.SaveAs.Warning.Folder.NotExists">The output folder does not exist.</s:String>-->
-    <!--<s:String x:Key="S.SaveAs.Warning.Filename">You need to pick a filename.</s:String>-->
-    <!--<s:String x:Key="S.SaveAs.Warning.Overwrite">Filename already in use. Set to overwrite or pick another filename.</s:String>-->
+    <!--<s:String x:Key="S.SaveAs.ImagesOptions">Görüntü seçenekleri</s:String>-->
+    <!--<s:String x:Key="S.SaveAs.ImageOptions.Zip">Görüntüleri sıkıştır.</s:String>-->
+    <!--<s:String x:Key="S.SaveAs.File">Dosya</s:String>-->
+    <!--<s:String x:Key="S.SaveAs.File.Location">Hedef Klasör.</s:String>-->
+    <!--<s:String x:Key="S.SaveAs.File.Choose">Konum seç.</s:String>    -->
+    <!--<s:String x:Key="S.SaveAs.File.Format">Dosya formatı</s:String>-->
+    <!--<s:String x:Key="S.SaveAs.File.Name">Dosya Adı.</s:String>-->
+    <!--<s:String x:Key="S.SaveAs.File.Animation">Animasyon</s:String>-->
+    <!--<s:String x:Key="S.SaveAs.File.Increase">Dosya numarasını arttır</s:String>-->
+    <!--<s:String x:Key="S.SaveAs.File.Decrease">Dosya numarasını azalt</s:String>-->
+    <!--<s:String x:Key="S.SaveAs.File.Exists">Aynı isimde bir dosya var.</s:String>-->
+    <!--<s:String x:Key="S.SaveAs.SaveOptions.Overwrite">Üzerine Yaz (eğer varsa).</s:String>-->
+    <!--<s:String x:Key="S.SaveAs.File.Clipboard">Panoyu kaydet.</s:String>-->
+    <!--<s:String x:Key="S.SaveAs.Warning.Folder">Çıktı için bir klasör seçmelisiniz.</s:String>-->
+    <!--<s:String x:Key="S.SaveAs.Warning.Folder.NotExists">Çıktı klasörü mevcut değil.</s:String>-->
+    <!--<s:String x:Key="S.SaveAs.Warning.Filename">Dosya adı almalısın.</s:String>-->
+    <!--<s:String x:Key="S.SaveAs.Warning.Overwrite">Dosya adı kullanımda. Üzerine yazmayı aktif edin yada başa isim yazın.</s:String>-->
     
     <!--Feedback-->
-    <!--<s:String x:Key="S.Feedback.Feedback">Feedback</s:String>-->
-    <!--<s:String x:Key="S.Feedback.Send">Send</s:String>-->
-    <!--<s:String x:Key="S.Feedback.Header">Send Feedback</s:String>-->
-    <!--<s:String x:Key="S.Feedback.Title">Title *</s:String>-->
-    <!--<s:String x:Key="S.Feedback.Message">Message *</s:String>-->
-    <!--<s:String x:Key="S.Feedback.Type">Type of Feedback</s:String>-->
-    <!--<s:String x:Key="S.Feedback.Suggestion">Suggestion</s:String>-->
-    <!--<s:String x:Key="S.Feedback.IssueBug">Issue/Bug</s:String>-->
-    <!--<s:String x:Key="S.Feedback.YourEmail">Your Email (Optional)</s:String>-->
-    <!--<s:String x:Key="S.Feedback.Warning.Title">You need to input a title for the feedback.</s:String>-->
-    <!--<s:String x:Key="S.Feedback.Warning.Message">You need to input a message in the feedback.</s:String>-->
-    <!--<s:String x:Key="S.Feedback.Sending">Sending... This window will close shortly after that.</s:String>-->
-    <!--<s:String x:Key="S.Feedback.Attachments">Attachments (Optional, 20MB Maximum)</s:String>-->
-    <!--<s:String x:Key="S.Feedback.AddAttachments">Add Attachments</s:String>-->
-    <!--<s:String x:Key="S.Feedback.RemoveAttachments">Remove All Attachments</s:String>-->
+    <!--<s:String x:Key="S.Feedback.Feedback">Geri Bildirim</s:String>-->
+    <!--<s:String x:Key="S.Feedback.Send">Gönder</s:String>-->
+    <!--<s:String x:Key="S.Feedback.Header">Geri Bildirimi Gönder</s:String>-->
+    <!--<s:String x:Key="S.Feedback.Title">Başlık *</s:String>-->
+    <!--<s:String x:Key="S.Feedback.Message">Mesaj *</s:String>-->
+    <!--<s:String x:Key="S.Feedback.Type">Geri Bilgirim Tipi</s:String>-->
+    <!--<s:String x:Key="S.Feedback.Suggestion">Öneri</s:String>-->
+    <!--<s:String x:Key="S.Feedback.IssueBug">Sorun/Hata</s:String>-->
+    <!--<s:String x:Key="S.Feedback.YourEmail">E-posta Adresiniz (Opsiyonel)</s:String>-->
+    <!--<s:String x:Key="S.Feedback.Warning.Title">Geri bildiriminize başlık girmelisiniz.</s:String>-->
+    <!--<s:String x:Key="S.Feedback.Warning.Message">Geri bildirminize mesaj girmelisiniz.</s:String>-->
+    <!--<s:String x:Key="S.Feedback.Sending">Gönderiliyor... Bu pencere kısa bir süre sonra kapanacak.</s:String>-->
+    <!--<s:String x:Key="S.Feedback.Attachments">Ekler (Opsiyonel, Maksimum 20MB)</s:String>-->
+    <!--<s:String x:Key="S.Feedback.AddAttachments">Dosya Ekle</s:String>-->
+    <!--<s:String x:Key="S.Feedback.RemoveAttachments">Tüm Ekleri Kaldır</s:String>-->
     
     <!--FontStyles-->
     <!--<s:String x:Key="S.FontStyles.Normal">Normal</s:String>-->
-    <!--<s:String x:Key="S.FontStyles.Italic">Italic</s:String>-->
-    <!--<s:String x:Key="S.FontStyles.Oblique">Oblique</s:String>-->
+    <!--<s:String x:Key="S.FontStyles.Italic">İtalik</s:String>-->
+    <!--<s:String x:Key="S.FontStyles.Oblique">Eğik</s:String>-->
     
     <!--FontWeight-->
     <!--<s:String x:Key="S.FontWeights.Black">Black</s:String>-->
@@ -678,17 +678,17 @@
     <!--<s:String x:Key="S.FontWeights.UltraLight">Ultra Light</s:String>-->
     
      <!--VerticalAligment-->
-    <!--<s:String x:Key="S.VerticalAlignment.Top">Top</s:String>-->
-    <!--<s:String x:Key="S.VerticalAlignment.Center">Center</s:String>-->
-    <!--<s:String x:Key="S.VerticalAlignment.Bottom">Bottom</s:String>-->
-    <!--<s:String x:Key="S.Alignment.Stretch">Stretch</s:String>-->
+    <!--<s:String x:Key="S.VerticalAlignment.Top">Üst</s:String>-->
+    <!--<s:String x:Key="S.VerticalAlignment.Center">Merkez(Orta)</s:String>-->
+    <!--<s:String x:Key="S.VerticalAlignment.Bottom">Dip</s:String>-->
+    <!--<s:String x:Key="S.Alignment.Stretch">Uzat</s:String>-->
 
      <!--HorizontalAlignment-->
-    <!--<s:String x:Key="S.HorizontalAlignment.Left">Left</s:String>-->
-    <!--<s:String x:Key="S.HorizontalAlignment.Center">Center</s:String>-->
-    <!--<s:String x:Key="S.HorizontalAlignment.Right">Right</s:String>-->
+    <!--<s:String x:Key="S.HorizontalAlignment.Left">Sol</s:String>-->
+    <!--<s:String x:Key="S.HorizontalAlignment.Center">Merkez(Orta)</s:String>-->
+    <!--<s:String x:Key="S.HorizontalAlignment.Right">Sağ</s:String>-->
     
     <!--Orientation-->
-    <!--<s:String x:Key="S.Orientation.Horizontal">Horizontal</s:String>-->
-    <!--<s:String x:Key="S.Orientation.Vertical">Vertical</s:String>-->
+    <!--<s:String x:Key="S.Orientation.Horizontal">Yatay</s:String>-->
+    <!--<s:String x:Key="S.Orientation.Vertical">Dikey</s:String>-->
 </ResourceDictionary>
